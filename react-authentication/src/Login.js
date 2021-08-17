@@ -18,8 +18,8 @@ function Login() {
         }
     }
     return (
-        <div className="row">
-            <div className="col-md-4 justify-content-center">
+        <div className="row  justify-content-center">
+            <div className="col-md-4">
                 <h1>User Authentication</h1>
                 <form onSubmit={validate}>
                     <input type="text" placeholder="username" className="form-control" value={username} onChange={(e)=>{setUsername(e.target.value)}}></input>
