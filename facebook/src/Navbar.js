@@ -47,7 +47,7 @@ function Navbar() {
                         }else{
                             return <div>
                                         <input type="text" placeholder="username" value={username}  onChange={(e)=>{setUserame(e.target.value)}}></input>
-                                        <input type="password" placeholder="password" value={password} onChange={(e)=>{setPassword(e.target.value)}}></input>
+                                        <input type="text" placeholder="password" value={password} onChange={(e)=>{setPassword(e.target.value)}}></input>
                                         <button onClick={login} >Login</button> 
                                     </div>
                         }

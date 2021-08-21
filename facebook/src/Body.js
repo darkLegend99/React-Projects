@@ -32,7 +32,7 @@ function Body() {
                 <form onSubmit={registerUser}>
                     <input type="text" placeholder="name" value={name} onChange={(e)=>{setName(e.target.value)}} className="form-control"></input>
                     <input type="text" placeholder="username" value={username} onChange={(e)=>{setUserame(e.target.value)}} className="form-control"></input>
-                    <input type="password" placeholder="password" value={password} onChange={(e)=>{setPassword(e.target.value)}} className="form-control"></input>
+                    <input type="text" placeholder="password" value={password} onChange={(e)=>{setPassword(e.target.value)}} className="form-control"></input>
                     <input className="btn btn-success" type="submit" value="Sign Up"></input>
                 </form>
             </div>
